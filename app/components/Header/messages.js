@@ -8,12 +8,20 @@ import { defineMessages } from 'react-intl';
 export const scope = 'boilerplate.components.Header';
 
 export default defineMessages({
-  home: {
+  toppage: {
     id: `${scope}.home`,
-    defaultMessage: 'Home',
+    defaultMessage: 'Healthy',
   },
-  features: {
-    id: `${scope}.features`,
-    defaultMessage: 'Features',
+  myRecord: {
+    id: `${scope}.自分の記録`,
+    defaultMessage: '自分の記録',
+  },
+  new: {
+    id: `${scope}.自分の記録`,
+    defaultMessage: '自分の記録',
+  },
+  message: {
+    id: `${scope}.自分の記録`,
+    defaultMessage: '自分の記録',
   },
 });

@@ -12,14 +12,16 @@ export default styled(Link)`
   user-select: none;
   cursor: pointer;
   outline: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  color: #fff;
+  font-family: 'Hiragino Kaku Gothic Pro';
+  font-style: normal;
+  font-weight: 300;
   font-size: 16px;
-  border: 2px solid #41addd;
-  color: #41addd;
+  line-height: 23px;
+  background-color: #414141;
 
   &:active {
-    background: #41addd;
+    background: #ff963c;
     color: #fff;
   }
 `;
